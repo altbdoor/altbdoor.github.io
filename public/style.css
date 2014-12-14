@@ -1,0 +1,9 @@
+html {overflow-y:scroll}
+body {padding-bottom:20px}
+
+.navbar {margin-bottom:0}
+.jumbotron {
+	background-color:#DAE2F8;
+	background-image:-webkit-linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%);
+	background-image:linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%);
+}
