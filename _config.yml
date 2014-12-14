@@ -4,7 +4,6 @@ relative_permalinks: true
 
 # Setup
 title:            altbdoor
-tagline:          Not applicable
 paginate:         1
 baseurl:          /
 
@@ -16,5 +15,5 @@ github:
 # Pages list
 pages_list:
   Home: '/'
-  Edurepo: '/edurepo/'
+  'Edu Repo': '/edurepo/'
   Standalone: '/standalone/'
