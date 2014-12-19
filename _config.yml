@@ -4,3 +4,4 @@ relative_permalinks: true
 
 # Setup
 title: altbdoor.github.io
+baseurl: http://altbdoor.github.io/archive/

@@ -1,5 +1,5 @@
 <ul id="nav">
 	{% for item in site.data.subpages %}
-		<li><a href="/{{ item[1] }}">{{ item[0] }}</a></li>
+		<li><a href="{{ baseurl }}{{ item[1] }}">{{ item[0] }}</a></li>
 	{% endfor %}
 </ul>
