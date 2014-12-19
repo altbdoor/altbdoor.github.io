@@ -1,51 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>
-		{% if page.title == "Home" %}
-			{{ site.title }}
-		{% else %}
-			{{ page.title }} · {{ site.title }}
-		{% endif %}
-	</title>
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}public/favicon.png">
-	
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}public/style.css">
-	
-	<!--[if lt IE 9]>
-		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	{% include head.html %}
 </head>
 <body>
-	<div class="navbar navbar-default navbar-static-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				
-				<a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
-			</div>
-			
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					{% for page in site.pages_list %}
-						<li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
-					{% endfor %}
-				</ul>
-			</div>
-		</div>
+	<div id="container">
+		{% include nav.html %}
+		
+		{{ content }}
+		
+		{% include foot.html %}
 	</div>
-	
-	{{ content }}
 </body>
 </html>

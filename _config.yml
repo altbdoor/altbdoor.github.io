@@ -1,19 +1,6 @@
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: true
 
 # Setup
-title:            altbdoor
-paginate:         1
-baseurl:          /
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/altbdoor/altbdoor.github.io
-
-# Pages list
-pages_list:
-  Home: '/'
-  'Edu Repo': '/edurepo/'
-  Standalone: '/standalone/'
+title: altbdoor.github.io
