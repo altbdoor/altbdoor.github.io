@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Comment"
-permalink: comment/
-relative: "../"
+permalink: pages/comment/
 ---
 
 Comment

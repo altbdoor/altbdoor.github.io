@@ -1,9 +1,5 @@
 <ul id="nav">
 	{% for item in site.data.subpages %}
-		{% if page.relative == '' %}
-			<li><a href="./{{ item[1] }}">{{ item[0] }}</a></li>
-		{% else %}
-			<li><a href="{{ page.relative }}{{ item[1] }}">{{ item[0] }}</a></li>
-		{% endif %}
+		<li><a href="./{{ relative }}{{ item[1] }}">{{ item[0] }}</a></li>
 	{% endfor %}
 </ul>

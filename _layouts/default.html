@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+	{% assign lvl = page.url | append:'X' | split:'/' | size %}
+	{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+	
 	{% include head.html %}
 </head>
 <body>

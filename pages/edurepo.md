@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Edurepo"
-permalink: edurepo/
-relative: "../"
+permalink: pages/edurepo/
 ---
 
 Edu Repo
