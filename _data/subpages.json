@@ -1,6 +1,5 @@
 [
 ["Home", ""],
 ["Edu Repo", "pages/edurepo"],
-["Standalone", "pages/standalone"],
-["Comment", "pages/comment"]
+["Standalone", "pages/standalone"]
 ]
