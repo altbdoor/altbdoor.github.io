@@ -15,7 +15,7 @@ A front-end to altbdoor's [Edu Repo](https://drive.google.com/folderview?id=0B5p
 			<h3>{{ item.title }}</h3>
 			<ul>
 				{% for subitem in item.children %}
-					<li><a href="http://adf.ly/8580409/{{ subitem[1] }}">{{ subitem[0] }}</a></li>
+					<li><a href="{{ subitem[1] }}">{{ subitem[0] }}</a></li>
 				{% endfor %}
 			</ul>
 		</li>
