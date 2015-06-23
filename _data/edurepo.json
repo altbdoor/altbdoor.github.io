@@ -101,7 +101,8 @@
 		["Final Year Project Notes", "https://docs.google.com/document/d/1WVVszORn99rvCLL4XAInQTecN_6d9NzaXBfT5MK22nw/edit?usp=sharing"],
 		["FYP Title List", "https://docs.google.com/spreadsheet/ccc?key=0AppMzfAiZLn4dFRpVGhPbm9FR21ZUEtIaVBfN2IwdVE&usp=sharing"],
 		["Planned Schedule for Final Year Project", "https://docs.google.com/document/d/16kHHmAbhETbddhYqvbuUNdSW9h11_StPvdWgI6WYZ2g/edit?usp=sharing"],
-		["The Pixelly Framing Manifesto.pdf", "https://docs.google.com/file/d/0B5pMzfAiZLn4dkNnZUtoNFJmMnM/edit?usp=sharing"]
+		["The Pixelly Framing Manifesto.pdf", "https://docs.google.com/file/d/0B5pMzfAiZLn4dkNnZUtoNFJmMnM/edit?usp=sharing"],
+		["FYP Git Repository", "https://github.com/altbdoor/final-year-project"]
 	]
 }, {
 	title: "industrial training",
@@ -228,7 +229,7 @@
 	title: "others",
 	children: [
 		["IT Society Documents", "https://drive.google.com/folderview?id=0B5pMzfAiZLn4Vm1BaEpINDVNVzg&usp=sharing"],
-		["Web Engineering Git Repository", "https://bitbucket.org/altbdoor/web_e"]
+		["Web Engineering Git Repository", "https://github.com/altbdoor/web-engineering"]
 	]
 }
 ]

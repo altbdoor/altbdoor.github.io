@@ -7,7 +7,7 @@ permalink: pages/beige-what/
 Beige What
 ===
 
-*Archived from [This Is Monked](http://thisismonked.blogspot.com/2014/05/beige-what.html), dated 9 May 2014.*
+*Archived from old blog, dated 9 May 2014.*
 
 > Beige is a very pale brown color, variously described as a pale sandy fawn color, a grayish tan, a light-grayish yellowish brown, or a pale to grayish yellow. It takes its name from the French word for the color of natural wool. It has come to be used for a range of light tints chosen for their neutral or pale warm appearance.
 > 
